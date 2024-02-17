@@ -4,6 +4,11 @@ import ex_2.Vehicle;
 
 public class Furgoneta extends Vehicle {
     private double pma;
+
+    public double getPma() {
+        return pma;
+    }
+
     public Furgoneta(String matricula, int diesLloguer, double pma) {
         super(matricula, diesLloguer);
         this.pma = pma;

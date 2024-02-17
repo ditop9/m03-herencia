@@ -1,6 +1,5 @@
 package ex_2.vehicles_transport;
 
-import ex_2.Vehicle;
 
 public class Microbus extends Cotxe {
 
