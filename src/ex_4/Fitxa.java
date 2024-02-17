@@ -33,4 +33,17 @@ public class Fitxa {
                 ", titol='" + titol + '\'' +
                 '}';
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Fitxa fitxa = (Fitxa) o;
+        return Objects.equals(referencia, fitxa.referencia) && Objects.equals(titol, fitxa.titol);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(referencia, titol);
+    }
 }
