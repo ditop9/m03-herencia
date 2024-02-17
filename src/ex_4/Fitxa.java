@@ -1,5 +1,7 @@
 package ex_4;
 
+import java.util.Objects;
+
 public class Fitxa {
     private String referencia;
     private String titol;

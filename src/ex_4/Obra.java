@@ -26,11 +26,12 @@ public class Obra extends Fitxa {
         this.nombrePagines = nombrePagines;
     }
 
+
     @Override
     public String toString() {
         return "Obra{" +
                 "autor='" + autor + '\'' +
                 ", nombrePagines=" + nombrePagines +
-                '}';
+                "} " + super.toString();
     }
 }

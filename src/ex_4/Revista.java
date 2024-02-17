@@ -26,11 +26,12 @@ public class Revista extends Fitxa{
         this.numeroRevista = numeroRevista;
     }
 
+
     @Override
     public String toString() {
         return "Revista{" +
                 "any=" + any +
                 ", numeroRevista=" + numeroRevista +
-                '}';
+                "} " + super.toString();
     }
 }

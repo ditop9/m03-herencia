@@ -19,7 +19,7 @@ public class Volum extends Obra {
     @Override
     public String toString() {
         return "Volum{" +
-                "numero=" + numeroVolum +
-                '}';
+                "numeroVolum=" + numeroVolum +
+                "} " + super.toString();
     }
 }
