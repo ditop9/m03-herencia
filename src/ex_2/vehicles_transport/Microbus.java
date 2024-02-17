@@ -9,6 +9,6 @@ public class Microbus extends Cotxe {
     }
     @Override
     public double calcularPreu() {
-
+        return super.calcularPreu() + (2 * super.getPlaces());
     }
 }

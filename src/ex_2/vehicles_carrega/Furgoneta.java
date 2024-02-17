@@ -2,9 +2,9 @@ package ex_2.vehicles_carrega;
 
 import ex_2.Vehicle;
 
-public class VehiclesCarrega extends Vehicle {
+public class Furgoneta extends Vehicle {
     private double pma;
-    public VehiclesCarrega(String matricula, int diesLloguer, double pma) {
+    public Furgoneta(String matricula, int diesLloguer, double pma) {
         super(matricula, diesLloguer);
         this.pma = pma;
     }
