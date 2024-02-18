@@ -21,6 +21,7 @@ public class Fitxa {
     public void setTitol(String titol) {
         this.titol = titol;
     }
+
     public Fitxa(String referencia, String titol) {
         this.referencia = referencia;
         this.titol = titol;
